@@ -157,6 +157,7 @@ class TerracoinKeypair(BitcoinKeypair):
 class VersionByte1(BitcoinKeypair):
     _pubkeyhash_version_byte = 225
 #1,NULL;2,NULL;3,2;4,2;5,3;6,3;7,3;8,4;9,4;10,5;11,5;12,NULL;
+    #40:H
 #80,Z
 
 class NovacoinKeypair(BitcoinKeypair):
