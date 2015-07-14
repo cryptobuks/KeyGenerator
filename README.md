@@ -1,6 +1,6 @@
 Coinkit
 =====
-
+Required:Python2.7
 Tools for Bitcoin and other cryptocurrencies.
 
 ## Sample Usage
