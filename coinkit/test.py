@@ -1,10 +1,10 @@
 # -*- coding: cp936 -*-
 from coinkit.keypair import BitcoinKeypair
 class vb4(BitcoinKeypair):
-        _pubkeyhash_version_byte = 40
+        _pubkeyhash_version_byte = 70
 
 
-verb4 = vb4(); 
-print '地址:'+verb4.address()
-print '私钥：'+verb4.private_key()
-print '公钥:\n'+verb4.public_key()
+verb4 = vb4();
+print '锟斤拷址:'+verb4.address()
+print '私钥锟斤拷'+verb4.private_key()
+print '锟斤拷钥:\n'+verb4.public_key()
