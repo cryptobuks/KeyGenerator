@@ -1,7 +1,7 @@
 # -*- coding: cp936 -*-
 from coinkit.keypair import BitcoinKeypair
 class vb4(BitcoinKeypair):
-        _pubkeyhash_version_byte = 70
+        _pubkeyhash_version_byte = 45
 
 
 verb4 = vb4();
